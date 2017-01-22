@@ -20,7 +20,7 @@ def main(args):
     #GraphicsView()#MainWindow()
     frame.setGeometry(100, 100, 600, 800)
     #frame.setWindowTitle("Flowchar")
-    frame.show()
+    #frame.show()
     sys.exit(app.exec_())
 
 if __name__=='__main__':

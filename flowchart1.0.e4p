@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project flowchart1.0 -->
-<!-- Saved: 2016-10-22, 16:09:28 -->
-<!-- Copyright (C) 2016 Marlon Moreno,  -->
+<!-- Saved: 2017-01-22, 12:27:08 -->
+<!-- Copyright (C) 2017 Marlon Moreno,  -->
 <Project version="5.1">
   <Language>es_CO</Language>
   <Hash>6fb6d5aeb4a345d7c8146f5080c2db72893b6d90</Hash>
   <ProgLanguage mixed="0">Python3</ProgLanguage>
   <ProjectType>PyQt5</ProjectType>
-  <Description></Description>
   <Version>0.1</Version>
   <Author>Marlon Moreno</Author>
   <Email></Email>
-  <Eol index="-1"/>
   <Sources>
     <Source>Block.py</Source>
     <Source>BlockGraph.py</Source>
@@ -20,6 +18,7 @@
     <Source>Terminal.py</Source>
     <Source>TerminalGraph.py</Source>
     <Source>__init__.py</Source>
+    <Source>basic_form.py</Source>
     <Source>blll.py</Source>
     <Source>connection.py</Source>
     <Source>fff.py</Source>
@@ -31,10 +30,112 @@
   <Translations/>
   <Resources/>
   <Interfaces/>
-  <Others/>
+  <Others>
+    <Other>.gitignore</Other>
+  </Others>
   <MainScript>run.py</MainScript>
   <Vcs>
-    <VcsType>None</VcsType>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
